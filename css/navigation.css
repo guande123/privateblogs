@@ -1,0 +1,52 @@
+content{
+	width:800px;
+	height:500px;
+	margin:0 auto;
+	display:block;
+}
+.navigation{
+	height:200px;
+	width:100%;
+	overflow:hidden;
+	
+}
+
+.nav_l{
+	width:30%;
+	float:left;
+	height:200px;
+	background:url('../map/privateblog.png') no-repeat top left;
+}
+.nav_r{
+	width:67%;
+	float:right;
+	height:200px;
+	background:url('../map/bg_fanchuan.png') no-repeat top right;
+}
+.nav_r_wrap{
+	height:100px;
+	margin-top:50px;
+	line-height:30px;
+}
+.nav_r_wrap ul{overflow:hidden;}
+.nav_r_wrap h3{ color:#666;font-family:"宋体";}
+.nav_r_wrap ul li{
+		float:left;
+		//margin-left:;	
+		//border:1px solid blue;
+		padding:0px 9px;
+		border-right:1px dashed gray;
+}
+.nav_r_wrap ul li:nth-last-child(1){
+	border-right:none;
+}
+.nav_r_wrap ul li a{
+	text-decoration:none;
+	color:#666;
+}
+.nav_r_wrap ul li a:hover{
+	text-decoration:underline;
+}
+.nav_r_wrap a:hover{
+	text-decoration:underline;
+}

@@ -1,0 +1,4 @@
+﻿原理：通过ajax异步请求服务器（新建的php脚本作为服务器），返回客户端刷新页面
+表单 action =$_SERVER['SCRIPT_URL']/#;
+操作者输入邮箱，点击获取验证码，Ajax请求URL--server.php?email=#
+status ==200 表示数据返回成功并正常，隐藏表单一，显示表单二,表单以此类推

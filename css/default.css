@@ -1,0 +1,4 @@
+    html,body,div,ul,li,p,header,content,footer,#sousuo,h3,a,p,span,form{margin:0px;padding:0px;}
+	ul{list-style:none;}
+	a{ text-decoration:none;}
+	a:hover{text-decoration:underline;}

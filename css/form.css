@@ -1,0 +1,50 @@
+content{
+	text-align:center;
+}
+#regist_form input{
+	margin:0px 0px ;
+	padding:0px 0px;
+}
+.u_in{
+    height:40px;
+	width:350px;
+	font-size:16px;
+}
+.u_para{
+	margin:22px 0px;
+	position:relative;
+}
+.u_para:nth-last-child(1){
+	padding-left:100px;
+}
+.u_label{
+	display:inline-block;
+	width:100px;
+	height:40px;
+	text-align:right;
+	font-size:14px;
+	line-height:41px;
+	vertical-align:center;
+	color:#757575;
+	font-weight:bold;
+	margin-right:1px;
+}
+.u_tips{
+	display:block;
+	width:160px;
+	position:absolute;
+	top:13px;
+	right:0px;
+	font-size:10px;
+	color:#757575;
+	text-align:left;
+}
+._btn{
+	height:50px;
+	width:350px;
+	background-color:#3F89EC;
+	color:#FFFFFF;
+	font-size:16px;
+	border:none;
+	border-radius:5px;
+}
